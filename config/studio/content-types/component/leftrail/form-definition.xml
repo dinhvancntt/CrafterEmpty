@@ -9,7 +9,7 @@
 	<properties>		<property>
 			<name>display-template</name>
 			<label>Display Template</label>
-			<value></value>
+			<value>/templates/web/components/left-rail.ftl</value>
 			<type>template</type>
 		</property>
 		<property>
@@ -127,7 +127,7 @@
 			</fields>
 		</section>
 		<section>
-			<title>Default Section Title 1711964935603</title>
+			<title>Default Section Title 1711965290088</title>
 			<description></description>
 			<defaultOpen>false</defaultOpen>
 			<fields>
