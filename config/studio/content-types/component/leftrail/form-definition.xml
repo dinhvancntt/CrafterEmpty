@@ -1,98 +1,229 @@
 <form>
-<title>Left Rail</title>
-<description></description>
-<content-type>/component/leftrail</content-type>
-<objectType>component</objectType>
-<quickCreate>false</quickCreate>
-<quickCreatePath></quickCreatePath>
-<properties>
-<property>
-<name>content-type</name>
-<label>Content Type</label>
-<value>/component/leftrail</value>
-<type>string</type>
-</property>
-<property>
-<name>display-template</name>
-<label>Display Template</label>
-<value></value>
-<type>template</type>
-</property>
-<property>
-<name>no-template-required</name>
-<label>No Template Required</label>
-<value></value>
-<type>boolean</type>
-</property>
-<property>
-<name>merge-strategy</name>
-<label>Merge Strategy</label>
-<value>inherit-levels</value>
-<type>string</type>
-</property>
-</properties>
-<sections>
-<section>
-<title>Left Rail Properties</title>
-<description></description>
-<defaultOpen>true</defaultOpen>
-<fields>
-<field>
-<type>auto-filename</type>
-<id>file-name</id>
-<iceId></iceId>
-<title>Component ID</title>
-<description></description>
-<defaultValue></defaultValue>
-<help></help>
-<properties>
-<property>
-<name>size</name>
-<value>50</value>
-<type>int</type>
-</property>
-<property>
-<name>maxlength</name>
-<value>50</value>
-<type>int</type>
-</property>
-<property>
-<name>readonly</name>
-<value></value>
-<type>boolean</type>
-</property>
-</properties>
-<constraints>
-</constraints>
-</field>
-<field>
-<type>input</type>
-<id>internal-name</id>
-<iceId></iceId>
-<title>Internal Name</title>
-<description></description>
-<defaultValue></defaultValue>
-<help></help>
-<properties>
-<property>
-<name>size</name>
-<value>50</value>
-<type>int</type>
-</property>
-<property>
-<name>maxlength</name>
-<value>50</value>
-<type>int</type>
-</property>
-</properties>
-<constraints>
-<constraint>
-<name>required</name>
-<value>true</value>
-<type>boolean</type>
-</constraint>
-</constraints>
-</field></fields>
-</section>
-</sections>
+	<title>Left Rail</title>
+	<description></description>
+	<objectType>component</objectType>
+	<content-type>/component/leftrail</content-type>
+	<imageThumbnail></imageThumbnail>
+	<quickCreate>false</quickCreate>
+	<quickCreatePath></quickCreatePath>
+	<properties>		<property>
+			<name>display-template</name>
+			<label>Display Template</label>
+			<value></value>
+			<type>template</type>
+		</property>
+		<property>
+			<name>no-template-required</name>
+			<label>No Template Required</label>
+			<value>true</value>
+			<type>boolean</type>
+		</property>
+		<property>
+			<name>merge-strategy</name>
+			<label>Merge Strategy</label>
+			<value>inherit-levels</value>
+			<type>string</type>
+		</property>
+	</properties>
+	<sections>		<section>
+			<title>Left Rail Properties</title>
+			<description></description>
+			<defaultOpen>true</defaultOpen>
+			<fields>
+				<field>
+					<type>file-name</type>
+					<id>file-name</id>
+					<iceId></iceId>
+					<title>Component ID</title>
+					<description></description>
+					<defaultValue></defaultValue>
+					<help></help>
+					<properties>
+						<property>
+							<name>size</name>
+							<value>50</value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>maxlength</name>
+							<value>50</value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>readonly</name>
+							<value></value>
+							<type>boolean</type>
+						</property>
+					</properties>
+					<constraints>
+					</constraints>
+				</field>
+				<field>
+					<type>input</type>
+					<id>internal-name</id>
+					<iceId></iceId>
+					<title>Internal Name</title>
+					<description></description>
+					<defaultValue></defaultValue>
+					<help></help>
+					<properties>
+						<property>
+							<name>size</name>
+							<value>50</value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>maxlength</name>
+							<value>50</value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>readonly</name>
+							<value></value>
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>tokenize</name>
+							<value>false</value>
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>escapeContent</name>
+							<value>false</value>
+							<type>boolean</type>
+						</property>
+					</properties>
+					<constraints>
+						<constraint>
+							<name>required</name>
+							<value><![CDATA[true]]></value>
+							<type>boolean</type>
+						</constraint>
+					</constraints>
+				</field>
+				<field>
+					<type>checkbox</type>
+					<id>disabled</id>
+					<iceId></iceId>
+					<title>Disable Component</title>
+					<description></description>
+					<defaultValue></defaultValue>
+					<help></help>
+					<properties>
+						<property>
+							<name>readonly</name>
+							<value></value>
+							<type>boolean</type>
+						</property>
+					</properties>
+					<constraints>
+						<constraint>
+							<name>required</name>
+							<value><![CDATA[true]]></value>
+							<type>boolean</type>
+						</constraint>
+					</constraints>
+				</field>
+			</fields>
+		</section>
+		<section>
+			<title>Default Section Title 1711964935603</title>
+			<description></description>
+			<defaultOpen>false</defaultOpen>
+			<fields>
+				<field>
+					<type>node-selector</type>
+					<id>widgets_o</id>
+					<iceId></iceId>
+					<title>Widgets</title>
+					<description></description>
+					<defaultValue></defaultValue>
+					<help></help>
+					<properties>
+						<property>
+							<name>minSize</name>
+							<value></value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>maxSize</name>
+							<value></value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>itemManager</name>
+							<value></value>
+							<type>datasource:item</type>
+						</property>
+						<property>
+							<name>readonly</name>
+							<value></value>
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>disableFlattening</name>
+							<value></value>
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>useSingleValueFilename</name>
+							<value></value>
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>useMVS</name>
+							<value></value>
+							<type>boolean</type>
+						</property>
+					</properties>
+					<constraints>
+						<constraint>
+							<name>allowDuplicates</name>
+							<value><![CDATA[]]></value>
+							<type>boolean</type>
+						</constraint>
+					</constraints>
+				</field>
+			</fields>
+		</section>
+	</sections>
+	<datasources>				<datasource>
+					<type>shared-content</type>
+					<id>components</id>
+					<title>Components</title>
+					<interface>item</interface>
+					<properties>
+						<property>
+							<name>enableCreateNew</name>
+							<value>true</value>
+								<type>boolean</type>
+						</property>
+						<property>
+							<name>enableBrowseExisting</name>
+							<value>true</value>
+								<type>boolean</type>
+						</property>
+						<property>
+							<name>enableSearchExisting</name>
+							<value>false</value>
+								<type>boolean</type>
+						</property>
+						<property>
+							<name>repoPath</name>
+							<value>/site/components</value>
+								<type>content-path-input</type>
+						</property>
+						<property>
+							<name>browsePath</name>
+							<value>/site/</value>
+								<type>content-path-input</type>
+						</property>
+						<property>
+							<name>type</name>
+							<value></value>
+								<type>string</type>
+						</property>
+					</properties>
+				</datasource>
+	</datasources>
 </form>
