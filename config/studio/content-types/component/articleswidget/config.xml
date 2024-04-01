@@ -14,5 +14,5 @@
 		<includes>
 			<pattern>^/site/components/articles-widget/.*</pattern>
 		</includes>
-	</paths>	
+	</paths>
 </content-type>
