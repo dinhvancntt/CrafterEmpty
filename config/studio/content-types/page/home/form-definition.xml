@@ -9,7 +9,7 @@
 	<properties>		<property>
 			<name>display-template</name>
 			<label>Display Template</label>
-			<value></value>
+			<value>/templates/web/pages/home.ftl</value>
 			<type>template</type>
 		</property>
 		<property>
@@ -188,7 +188,7 @@
 						</property>
 						<property>
 							<name>itemManager</name>
-							<value></value>
+							<value>components-header</value>
 							<type>datasource:item</type>
 						</property>
 						<property>
@@ -241,7 +241,7 @@
 						</property>
 						<property>
 							<name>itemManager</name>
-							<value></value>
+							<value>components-left-rail</value>
 							<type>datasource:item</type>
 						</property>
 						<property>
@@ -276,7 +276,7 @@
 			</fields>
 		</section>
 		<section>
-			<title>Default Section Title 1712031198783</title>
+			<title>Default Section Title 1712045841431</title>
 			<description></description>
 			<defaultOpen>false</defaultOpen>
 			<fields>
@@ -540,7 +540,7 @@
 						</property>
 						<property>
 							<name>itemManager</name>
-							<value></value>
+							<value>featuresComponents</value>
 							<type>datasource:item</type>
 						</property>
 						<property>
