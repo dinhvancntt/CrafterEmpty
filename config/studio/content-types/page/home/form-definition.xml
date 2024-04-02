@@ -276,7 +276,7 @@
 			</fields>
 		</section>
 		<section>
-			<title>Default Section Title 1712029738039</title>
+			<title>Default Section Title 1712031198783</title>
 			<description></description>
 			<defaultOpen>false</defaultOpen>
 			<fields>
@@ -601,7 +601,7 @@
 					<properties>
 						<property>
 							<name>repoPath</name>
-							<value>/static-assets/</value>
+							<value>/static-assets/item/images/{yyyy}/{mm}/{dd}/</value>
 								<type>content-path-input</type>
 						</property>
 					</properties>
