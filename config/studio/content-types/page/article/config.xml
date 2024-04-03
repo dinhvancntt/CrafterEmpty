@@ -10,4 +10,9 @@
 	<quickCreatePath>/site/website/articles/{year}/{month}</quickCreatePath>
 	<noThumbnail>true</noThumbnail>
 	<image-thumbnail></image-thumbnail>
+	<paths>
+		<includes>
+			<pattern>^/site/website/articles/.*</pattern>
+		</includes>
+	</paths>	
 </content-type>
