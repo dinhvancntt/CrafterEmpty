@@ -9,7 +9,7 @@
 	<properties>		<property>
 			<name>display-template</name>
 			<label>Display Template</label>
-			<value></value>
+			<value>/templates/web/pages/article.ftl</value>
 			<type>template</type>
 		</property>
 		<property>
@@ -234,17 +234,17 @@
 					<properties>
 						<property>
 							<name>minSize</name>
-							<value></value>
+							<value>0</value>
 							<type>int</type>
 						</property>
 						<property>
 							<name>maxSize</name>
-							<value></value>
+							<value>1</value>
 							<type>int</type>
 						</property>
 						<property>
 							<name>itemManager</name>
-							<value></value>
+							<value>components-header</value>
 							<type>datasource:item</type>
 						</property>
 						<property>
@@ -287,17 +287,17 @@
 					<properties>
 						<property>
 							<name>minSize</name>
-							<value></value>
+							<value>0</value>
 							<type>int</type>
 						</property>
 						<property>
 							<name>maxSize</name>
-							<value></value>
+							<value>1</value>
 							<type>int</type>
 						</property>
 						<property>
 							<name>itemManager</name>
-							<value></value>
+							<value>components-left-rail</value>
 							<type>datasource:item</type>
 						</property>
 						<property>
@@ -347,7 +347,7 @@
 					<properties>
 						<property>
 							<name>datasource</name>
-							<value></value>
+							<value>categories</value>
 							<type>datasource:item:singleSelection</type>
 						</property>
 						<property>
@@ -385,7 +385,7 @@
 					<properties>
 						<property>
 							<name>datasource</name>
-							<value></value>
+							<value>segments</value>
 							<type>datasource:item:singleSelection</type>
 						</property>
 						<property>
@@ -683,7 +683,7 @@
 						</property>
 						<property>
 							<name>imageManager</name>
-							<value></value>
+							<value>existingImages,uploadImages</value>
 							<type>datasource:image</type>
 						</property>
 						<property>
@@ -770,7 +770,7 @@
 						</property>
 						<property>
 							<name>imageManager</name>
-							<value></value>
+							<value>uploadImages,existingImages</value>
 							<type>datasource:image</type>
 						</property>
 						<property>
