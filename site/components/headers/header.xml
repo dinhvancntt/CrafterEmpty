@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/header</content-type>
+	<display-template>/templates/web/components/header.ftl</display-template>
+	<no-template-required>true</no-template-required>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>393a</objectGroupId>
+	<objectId>393a9de4-9ca3-113b-984e-dd0953af7753</objectId>
+	<internal-name>Header</internal-name>
+	<logo_text_t>logo</logo_text_t>
+	<business_name_s>Editorial</business_name_s>
+	<file-name>header.xml</file-name>
+	<folder-name/>
+	<disabled>false</disabled>
+	<logo_s>/static-assets/images/1-gear.png</logo_s>
+	<logo_s_alt/>
+	<createdDate>2024-04-04T03:30:07.822Z</createdDate>
+	<createdDate_dt>2024-04-04T03:30:07.822Z</createdDate_dt>
+	<lastModifiedDate>2024-04-04T03:30:07.822Z</lastModifiedDate>
+	<lastModifiedDate_dt>2024-04-04T03:30:07.822Z</lastModifiedDate_dt>
+</component>
