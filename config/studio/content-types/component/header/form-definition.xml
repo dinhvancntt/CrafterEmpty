@@ -9,7 +9,7 @@
 	<properties>		<property>
 			<name>display-template</name>
 			<label>Display Template</label>
-			<value></value>
+			<value>/templates/web/components/header.ftl</value>
 			<type>template</type>
 		</property>
 		<property>
@@ -147,7 +147,7 @@
 						</property>
 						<property>
 							<name>imageManager</name>
-							<value></value>
+							<value>existing_images,upload_image</value>
 							<type>datasource:image</type>
 						</property>
 						<property>
@@ -205,7 +205,7 @@
 					<constraints>
 						<constraint>
 							<name>required</name>
-							<value><![CDATA[]]></value>
+							<value><![CDATA[true]]></value>
 							<type>boolean</type>
 						</constraint>
 						<constraint>
@@ -345,19 +345,6 @@
 					</properties>
 				</datasource>
 				<datasource>
-					<type>file-desktop-upload</type>
-					<id>upload_image</id>
-					<title>Upload Images</title>
-					<interface>item</interface>
-					<properties>
-						<property>
-							<name>repoPath</name>
-							<value>/static-assets/item/images/{yyyy}/{mm}/{dd}/</value>
-								<type>content-path-input</type>
-						</property>
-					</properties>
-				</datasource>
-				<datasource>
 					<type>components</type>
 					<id>socialMedia</id>
 					<title>Social Media</title>
@@ -402,6 +389,19 @@
 							<name>tags</name>
 							<value></value>
 								<type>string</type>
+						</property>
+					</properties>
+				</datasource>
+				<datasource>
+					<type>img-desktop-upload</type>
+					<id>upload_image</id>
+					<title>Upload Images</title>
+					<interface>image</interface>
+					<properties>
+						<property>
+							<name>repoPath</name>
+							<value>/static-assets/item/images/{yyyy}/{mm}/{dd}/</value>
+								<type>content-path-input</type>
 						</property>
 					</properties>
 				</datasource>
