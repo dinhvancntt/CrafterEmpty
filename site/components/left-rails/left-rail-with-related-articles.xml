@@ -2,7 +2,7 @@
 <component>
 	<content-type>/component/leftrail</content-type>
 	<display-template>/templates/web/components/left-rail.ftl</display-template>
-	<no-template-required>true</no-template-required>
+	<no-template-required>false</no-template-required>
 	<merge-strategy>inherit-levels</merge-strategy>
 	<objectGroupId>6ff6</objectGroupId>
 	<objectId>6ff65190-789d-7723-1f5a-9f020e3880fe</objectId>
@@ -12,6 +12,11 @@
 	<disabled>true</disabled>
 	<createdDate>2024-04-01T10:32:26.242Z</createdDate>
 	<createdDate_dt>2024-04-01T10:32:26.242Z</createdDate_dt>
-	<lastModifiedDate>2024-04-01T10:32:26.242Z</lastModifiedDate>
-	<lastModifiedDate_dt>2024-04-01T10:32:26.242Z</lastModifiedDate_dt>
+	<lastModifiedDate>2024-04-04T04:25:05.626Z</lastModifiedDate>
+	<lastModifiedDate_dt>2024-04-04T04:25:05.626Z</lastModifiedDate_dt>
+	<widgets_o item-list="true">	<item>	<key>/site/components/articles-widget/1f30a895-ad87-02e2-9ee5-b6a71cbb6194.xml</key>
+	<value>Latest Articles Widget</value>
+	<include>/site/components/articles-widget/1f30a895-ad87-02e2-9ee5-b6a71cbb6194.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></widgets_o>
 </component>
