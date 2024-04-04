@@ -114,7 +114,7 @@
 					<id>scirpts_o</id>
 					<iceId></iceId>
 					<title>Controllers</title>
-					<description></description>
+					<description>The controller script(s) that will be executed before the component is rendered</description>
 					<defaultValue></defaultValue>
 					<help></help>
 					<properties>
@@ -284,12 +284,12 @@
 						</property>
 						<property>
 							<name>repoPath</name>
-							<value>/scripts/components</value>
+							<value>/site/scripts/components</value>
 								<type>content-path-input</type>
 						</property>
 						<property>
 							<name>browsePath</name>
-							<value>/site/</value>
+							<value>/scripts/components</value>
 								<type>content-path-input</type>
 						</property>
 						<property>
