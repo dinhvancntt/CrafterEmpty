@@ -15,7 +15,7 @@
 		<property>
 			<name>no-template-required</name>
 			<label>No Template Required</label>
-			<value>true</value>
+			<value>false</value>
 			<type>boolean</type>
 		</property>
 		<property>
@@ -127,7 +127,7 @@
 			</fields>
 		</section>
 		<section>
-			<title>Default Section Title 1711967632539</title>
+			<title>Default Section Title 1712203726968</title>
 			<description></description>
 			<defaultOpen>false</defaultOpen>
 			<fields>
@@ -152,7 +152,7 @@
 						</property>
 						<property>
 							<name>itemManager</name>
-							<value></value>
+							<value>components</value>
 							<type>datasource:item</type>
 						</property>
 						<property>
