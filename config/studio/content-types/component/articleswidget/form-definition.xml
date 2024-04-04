@@ -284,7 +284,7 @@
 						</property>
 						<property>
 							<name>repoPath</name>
-							<value>/site/components</value>
+							<value>/scripts/components</value>
 								<type>content-path-input</type>
 						</property>
 						<property>
