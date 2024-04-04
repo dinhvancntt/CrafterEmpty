@@ -120,7 +120,7 @@
 					<properties>
 						<property>
 							<name>minSize</name>
-							<value></value>
+							<value>1</value>
 							<type>int</type>
 						</property>
 						<property>
@@ -130,7 +130,7 @@
 						</property>
 						<property>
 							<name>itemManager</name>
-							<value></value>
+							<value>scripts</value>
 							<type>datasource:item</type>
 						</property>
 						<property>
