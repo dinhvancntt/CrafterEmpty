@@ -28,12 +28,12 @@
 	<header_o item-list="true"/>
 	<left_rail_o item-list="true"/>
 	<summary_t>Fusce a augue pulvinar, pellentesque magna ac, feugiat diam. Vestibulum ultricies ornare elit sed congue. Quisque vitae urna lacinia, mollis lorem a, iaculis libero. Praesent dolor libero, ullamcorper sed pharetra placerat, pretium in arcu. </summary_t>
-	<image_s/>
+	<image_s>/static-assets/images/smartphone-pic.jpg</image_s>
 	<image_s_alt/>
 	<createdDate>2024-04-03T09:56:07.336Z</createdDate>
 	<createdDate_dt>2024-04-03T09:56:07.336Z</createdDate_dt>
-	<lastModifiedDate>2024-04-03T09:56:07.336Z</lastModifiedDate>
-	<lastModifiedDate_dt>2024-04-03T09:56:07.336Z</lastModifiedDate_dt>
+	<lastModifiedDate>2024-04-04T03:15:35.130Z</lastModifiedDate>
+	<lastModifiedDate_dt>2024-04-04T03:15:35.130Z</lastModifiedDate_dt>
 	<date_dt>2024-04-02T17:00:00.000Z</date_dt>
 	<date_dt_tz>Asia/Saigon</date_dt_tz>
 </page>
